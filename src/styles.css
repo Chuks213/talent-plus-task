@@ -1,0 +1,530 @@
+nav a.nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #aac4e6 !important;
+}
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.logo {
+  width: 130px;
+  height: 47px;
+}
+
+.navbar-brand {
+  padding: 20px !important;
+}
+
+.btn-light {
+  font-family: 'Satoshi';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #004DB3 !important;
+  
+
+  
+}
+
+/***** BANNER STYLES *****/
+.img-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Ban-container {
+  padding: 6rem 0 10rem 8rem;
+}
+
+.G_text {
+  font-family: "Clash Display";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 82px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.future_text {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #e7e7e7;
+}
+
+.btn_con {
+  display: flex;
+  gap: 15px;
+  padding: 20px 0;
+}
+
+.G_cont {
+  margin-top: 60px;
+}
+
+.container_icon {
+  padding: 0 50px 0 0;
+  position: absolute;
+  width: 705.33px;
+  height: 886px;
+}
+
+.frame_icon {
+  width: 1727px;
+  height: 158px;
+}
+
+/* **** CLASSES STYLES */
+.audio_text {
+  font-family: "Clash Display";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 70px;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.aud_text {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #a2a2a2;
+}
+
+.Class_container {
+  padding: 4rem 0 5rem 6rem;
+}
+
+.row {
+  background: #f8f9fc;
+  position:relative;
+}
+
+.vector_img {
+  position: relative;
+  left: 20px;
+  left: -38px;
+  bottom: -25px;
+}
+
+.unsplash_box{
+  position:absolute;
+  bottom: -70px;
+  left: 40rem;
+  z-index: 3;
+  left:40rem;
+}
+
+.group_box{
+  position:absolute;
+  left: 40rem;
+  bottom: 0;
+  top: 12rem;
+  z-index: 3;
+}
+
+.drip_box{
+  position: absolute;
+  bottom: 40px;
+  right: 6rem;
+  z-index: 1;
+}
+
+.splash_Box{
+  max-width: 100%;
+  z-index: 2;
+  position: absolute;
+}
+
+.label_cont {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding-top: 15px;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 56px 20px 24px;
+  gap: 16px;
+  width: 232px;
+  height: 72px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.class_box {
+  background: #f8f9fc;
+  padding: 3rem 0 4rem 0;
+}
+
+/**** EXPERIENCED STYLES ****/
+.experienced_container {
+  background: #f8f9fc;
+  padding: 3rem 0 5rem 6rem;
+}
+
+.header_text {
+  font-family: "Clash Display";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 70px;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.net_text {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #a2a2a2;
+}
+
+.net_box {
+  margin-bottom: 20px;
+}
+
+.experience h2 {
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.experience_box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 3rem 6rem 0 5rem;
+}
+
+.experience {
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.experience p {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #a2a2a2;
+}
+
+.w_img {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.dot_img {
+  display: flex;
+  position: relative;
+  left: 13.2rem;
+  margin-bottom: 10px;
+}
+
+/**** COURSES STYLES****/
+.course_text{
+  font-family: 'Clash Display';
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #000F24;
+}
+
+.p_text{
+  font-family: 'Satoshi';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* text-align: center; */
+  text-transform: capitalize;
+  color: #A2A2A2;
+}
+
+.label_text{
+  color:#004DB3;
+  display: flex;
+  justify-content: center;
+  background: rgba(30, 93, 206, 0.2);
+  border-radius: 50px;
+  width: 8rem;
+  height:1rem;
+  font-family: 'Satoshi';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.amount_text{
+  color: #A1A1A1;
+}
+
+.Desc_text{
+  font-family: 'Clash Display';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #000F24;
+}
+
+.hours_text{
+  font-family: 'Satoshi';
+  color: #A1A1A1;
+}
+
+.lab_cont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 15px 0
+}
+
+.Course_Box{
+  padding:3rem 6rem;
+}
+
+.course_container{
+  background: #ffffff;
+  height: 563px;
+  top: 25px;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 100%;
+  margin-bottom: 25px;
+}
+
+.course_cont{
+  text-align: center;
+}
+
+.box_img{
+  display:flex;
+  justify-content: space-between;
+  padding: 14px 0;
+}
+
+.inner_box{
+  display:flex;
+  align-items: center;
+  gap:12px;
+}
+
+
+.list_item{
+  display:flex;
+  gap:20px;
+}
+
+/***** FEEDBACK STYLES *****/
+
+.client_text{
+  font-family: 'Clash Display';
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #000F24;
+}
+
+.desc_text{
+  font-family: 'Satoshi';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #A2A2A2;
+}
+
+.inner_text{
+  font-family: 'Satoshi';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.feedback_cont{
+  text-align: center;
+}
+
+/**** COMMUNITY STYLES ****/
+
+.Community_cont{
+  text-align: center;
+}
+
+.join_text{
+  font-family: 'Satoshi';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.fut_text{
+  font-family: 'Clash Display';
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 69px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.other_text{
+  font-family: 'Satoshi';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+
+/**** QUESTIONS STYLES ****/
+
+.freq_text{
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #000F24;
+}
+
+.Quest_cont{
+  text-align: center;
+}
+
+.fre_text{
+  font-family: 'Satoshi';
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #004DB3;
+}
+
+.img_cont{
+  display:flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.faq{
+  display:flex;
+  justify-content: space-between;
+  border: 1px solid #EAEAEA;
+  align-items: center;
+}
+
+.question_cont{
+  padding:2rem 0;
+  background: #FFFFFF;
+}
+
+.question_cont span{
+  font-family: 'Satoshi';
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #000F24;
+  }
+
+  .freq_cont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .freq_cont img{
+    height:5px;
+    width:24px;
+  }
+
+  .faqs_container{
+    padding: 4rem 17rem;
+  }
+
+  /**** FOOTER STYLES ****/
+
+  .footer_container{
+    background: #000F24;
+    padding: 5rem 3rem;
+  }
+
+  .social_text{
+    font-family: 'Satoshi';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-top: 20px;
+
+  }
+
+  .social_cont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link_text{
+  font-family: 'Clash Display';
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.link_cont{
+  padding: 0 25px;
+}
+
+.link_cont p{
+  font-family: 'Satoshi';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: unset;
+  margin-top: 15px;
+}
+
+input{
+background: #424141;
+}
+  
