@@ -1,5 +1,5 @@
 
-import './styles.css';
+// import './styles.css';
 import Navbar from "./Components/Navbar";
 import Banner from "./Components/Banner";
 import Classes from "./Components/Classes";

@@ -1,13 +1,80 @@
-nav a.nav-link {
+@font-face {
+  font-family: "Clash Display Medium";
+  src: url("./fonts/ClashDisplay-Medium.woff") format("woff"),
+    url("./fonts/ClashDisplay-Medium.woff") format("woff");
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Clash Display Bold";
+  src: url("./fonts/ClashDisplay-Bold.woff") format("woff"),
+    url("./fonts/ClashDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-display: swap;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Clash Display Medium";
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Satoshi Medium";
+  src: url("./fonts/Satoshi-Medium.woff") format("woff"),
+    url("./fonts/Satoshi-Medium.woff") format("woff");
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi Bold";
+  src: url("./fonts/Satoshi-Bold.woff") format("woff"),
+    url("./fonts/Satoshi-Bold.woff") format("woff");
+  font-weight: bold;
+  font-display: swap;
+}
+
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  width: 100vw;
+  min-width: auto;
+}
+
+html {
+  min-width: auto;
+}
+
+.App {
+  position: relative;
+}
+
+.wrapper {
+  padding: 0 12px 0 0;
+}
+
+.active {
+  color: #fff !important;
+}
+
+.nav .a .nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
   margin-right: 10px;
 }
 
 .nav-link {
-  color: #aac4e6 !important;
+  color: #aac4e6;
 }
-.nav-link:hover {
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #ffffff;
+}
+
+.nav-link active {
   color: #fff !important;
 }
 
@@ -21,15 +88,12 @@ nav a.nav-link {
 }
 
 .btn-light {
-  font-family: 'Satoshi';
+  font-family: "Satoshi medium";
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
   text-transform: capitalize;
-  color: #004DB3 !important;
-  
-
-  
+  color: #004db3 !important;
 }
 
 /***** BANNER STYLES *****/
@@ -39,15 +103,20 @@ nav a.nav-link {
 }
 
 .Ban-container {
-  padding: 6rem 0 10rem 8rem;
+  padding: 5rem 0 10rem 7.5rem;
+}
+
+.blue_icon {
+  position: absolute;
+  left: 0.5%;
+  top: 39%;
 }
 
 .G_text {
-  font-family: "Clash Display";
+  font-family: "Clash Display Bold";
   font-weight: 700;
   font-size: 64px;
   line-height: 82px;
-  text-transform: capitalize;
   color: #ffffff;
 }
 .future_text {
@@ -65,15 +134,36 @@ nav a.nav-link {
   padding: 20px 0;
 }
 
+.dot_icon {
+  position: absolute;
+  left: 41.92%;
+  bottom: 87.83%;
+}
+
+.cir_icon {
+  position: absolute;
+  left: 100px;
+  left: 10.5%;
+}
+
 .G_cont {
   margin-top: 60px;
 }
 
 .container_icon {
-  padding: 0 50px 0 0;
+  padding: 20px 50px 0 0;
   position: absolute;
-  width: 705.33px;
+  width: 694.33px;
   height: 886px;
+}
+.pointed_icon {
+  position: absolute;
+  left: 46.23%;
+  top: 50.42%;
+}
+
+.arrow_w {
+  max-width: 65%;
 }
 
 .frame_icon {
@@ -83,16 +173,16 @@ nav a.nav-link {
 
 /* **** CLASSES STYLES */
 .audio_text {
-  font-family: "Clash Display";
+  font-family: "Clash Display Bold";
   font-weight: 700;
-  font-size: 56px;
+  font-size: 50px;
   line-height: 70px;
-  text-transform: capitalize;
+  line-height: 70px;
   color: #000f24;
 }
 
 .aud_text {
-  font-family: "Satoshi";
+  font-family: "Satoshi medium";
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
@@ -101,45 +191,67 @@ nav a.nav-link {
 }
 
 .Class_container {
-  padding: 4rem 0 5rem 6rem;
+  padding: 8rem 0 5rem 5rem;
 }
 
 .row {
   background: #f8f9fc;
-  position:relative;
+  position: relative;
+}
+
+.btn_class {
+  font-family: "Satoshi medium";
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.green_vector {
+  position: absolute;
+  left: 91rem;
+  top: 4rem;
 }
 
 .vector_img {
-  position: relative;
-  left: 20px;
-  left: -38px;
-  bottom: -25px;
+  position: absolute;
+  left: 3.74%;
+  top: 14.24%;
 }
 
-.unsplash_box{
-  position:absolute;
-  bottom: -70px;
+.unsplash_box {
+  position: absolute;
+  /* bottom: -70px; */
+  bottom: 45px;
   left: 40rem;
   z-index: 3;
-  left:40rem;
+  left: 40rem;
 }
 
-.group_box{
-  position:absolute;
-  left: 40rem;
+.group_box {
+  position: absolute;
+  left: 42rem;
   bottom: 0;
   top: 12rem;
   z-index: 3;
 }
 
-.drip_box{
+.curve_box {
   position: absolute;
-  bottom: 40px;
-  right: 6rem;
+  left: 95.76%;
+  right: -6.25%;
+  top: 82.6%;
+  bottom: 7.24%;
+}
+
+.drip_box {
+  position: absolute;
+  bottom: 84px;
+  right: 5.3rem;
   z-index: 1;
 }
 
-.splash_Box{
+.splash_Box {
   max-width: 100%;
   z-index: 2;
   position: absolute;
@@ -152,21 +264,47 @@ nav a.nav-link {
   padding-top: 15px;
 }
 
-label {
+.audio_classes {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 20px 56px 20px 24px;
-  gap: 16px;
-  width: 232px;
-  height: 72px;
+  gap: 15px;
   background: #ffffff;
   border-radius: 8px;
+  font-family: "Satoshi medium";
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.live_classes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 15px;
+  width: 237px;
+  background: #ffffff;
+  border-radius: 8px;
+  font-family: "Satoshi medium";
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.label_box {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding-top: 15px;
 }
 
 .class_box {
   background: #f8f9fc;
-  padding: 3rem 0 4rem 0;
+  padding: 4rem 1rem 4rem 1rem;
 }
 
 /**** EXPERIENCED STYLES ****/
@@ -176,16 +314,37 @@ label {
 }
 
 .header_text {
-  font-family: "Clash Display";
+  font-family: "Clash Display Bold";
   font-weight: 700;
-  font-size: 56px;
+  font-size: 50px;
   line-height: 70px;
   text-transform: capitalize;
   color: #000f24;
 }
 
+.triangle_box {
+  position: absolute;
+  left: 1.74%;
+  right: 96.53%;
+  top: 74.24%;
+  bottom: 19.6%;
+}
+
+.purple_box {
+  position: absolute;
+  left: 92rem;
+  top: 46rem;
+}
+
+.circle_box {
+  position: absolute;
+  left: 78%;
+  right: 0%;
+  top: 97%;
+}
+
 .net_text {
-  font-family: "Satoshi";
+  font-family: "Satoshi medium";
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
@@ -198,7 +357,7 @@ label {
 }
 
 .experience h2 {
-  font-family: "Satoshi";
+  font-family: "Satoshi bold";
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
@@ -243,70 +402,84 @@ label {
 }
 
 /**** COURSES STYLES****/
-.course_text{
-  font-family: 'Clash Display';
+.course_text {
+  font-family: "Clash Display Bold";
   font-weight: 700;
   font-size: 56px;
   line-height: 69px;
   text-transform: capitalize;
-  color: #000F24;
+  color: #000f24;
 }
 
-.p_text{
-  font-family: 'Satoshi';
+.p_text {
+  font-family: "Satoshi medium";
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
-  /* text-align: center; */
   text-transform: capitalize;
-  color: #A2A2A2;
+  color: #a2a2a2;
 }
 
-.label_text{
-  color:#004DB3;
+.label_text {
+  color: #004db3;
   display: flex;
   justify-content: center;
   background: rgba(30, 93, 206, 0.2);
   border-radius: 50px;
   width: 8rem;
-  height:1rem;
-  font-family: 'Satoshi';
+  font-family: "Satoshi medium";
   font-weight: 700;
   font-size: 12px;
-  line-height: 16px;
+  height: 2rem;
+  align-items: center;
 }
 
-.amount_text{
-  color: #A1A1A1;
+.price_text {
+  font-family: "Clash Display Medium";
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #004db3;
 }
 
-.Desc_text{
-  font-family: 'Clash Display';
+.amount_text {
+  color: #a1a1a1;
+  font-family: "Satoshi medium";
+}
+
+.Desc_text {
+  font-family: "Clash Display Medium";
   font-weight: 600;
   font-size: 24px;
   line-height: 30px;
-  text-transform: capitalize;
-  color: #000F24;
+  color: #000f24;
 }
 
-.hours_text{
-  font-family: 'Satoshi';
-  color: #A1A1A1;
+.hours_text {
+  font-family: "Satoshi medium";
+  color: #a1a1a1;
 }
 
-.lab_cont{
+.lab_cont {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 15px 0
+  padding: 10px 0 15px 0;
 }
 
-.Course_Box{
-  padding:3rem 6rem;
+.star_box {
+  position: absolute;
+  left: 10.74%;
+  top: 8.24%;
+  bottom: 19.6%;
 }
 
-.course_container{
+.Course_Box {
+  padding: 3rem 6rem;
+}
+
+.course_container {
   background: #ffffff;
   height: 563px;
   top: 25px;
@@ -316,50 +489,107 @@ label {
   margin-bottom: 25px;
 }
 
-.course_cont{
+.course_cont {
   text-align: center;
 }
 
-.box_img{
-  display:flex;
+.btn_box {
+  width: 209px;
+  height: 54px;
+  font-family: "Satoshi medium";
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.btn_cont {
+  display: flex;
+  justify-content: center;
+}
+
+.box_img {
+  display: flex;
   justify-content: space-between;
   padding: 14px 0;
 }
 
-.inner_box{
-  display:flex;
+.inner_box {
+  display: flex;
   align-items: center;
-  gap:12px;
+  gap: 12px;
 }
 
+.list_item {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
 
-.list_item{
-  display:flex;
-  gap:20px;
+.tab_text {
+  font-family: "Satoshi medium";
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #a1a1a1 !important;
+}
+
+.nav-tabs .nav-link {
+  border-bottom: unset;
+  border: unset;
+}
+
+.active_tab {
+  font-family: "Satoshi medium";
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #004db3 !important;
 }
 
 /***** FEEDBACK STYLES *****/
 
-.client_text{
-  font-family: 'Clash Display';
+.client_text {
+  font-family: "Clash Display Bold";
   font-weight: 700;
   font-size: 56px;
   line-height: 69px;
   text-transform: capitalize;
-  color: #000F24;
+  color: #000f24;
 }
 
-.desc_text{
-  font-family: 'Satoshi';
+.desc_text {
+  font-family: "Satoshi medium";
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
   text-transform: capitalize;
-  color: #A2A2A2;
+  color: #a2a2a2;
 }
 
-.inner_text{
-  font-family: 'Satoshi';
+.Desc_container {
+  max-width: 620px;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 0px;
+  margin-left: 18px;
+}
+
+.inner_container {
+  padding: 40px 20px;
+}
+
+.Desc_Text {
+  font-family: "Satoshi medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #a2a2a2;
+}
+
+.inner_text {
+  font-family: "Satoshi medium";
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
@@ -367,164 +597,296 @@ label {
   color: #000000;
 }
 
-.feedback_cont{
+.feedback_cont {
   text-align: center;
+  padding-bottom: 27px;
+}
+
+.img_wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.sam_text {
+  font-family: "Satoshi medium";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.main {
+  padding: 0 10px 80px 15px;
+}
+
+.pro_text {
+  font-family: "Satoshi medium";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #a1a1a1;
 }
 
 /**** COMMUNITY STYLES ****/
 
-.Community_cont{
+.Community_cont {
   text-align: center;
+  padding-top: 4rem;
 }
 
-.join_text{
-  font-family: 'Satoshi';
+.join_text {
+  font-family: "Satoshi medium";
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.fut_text{
-  font-family: 'Clash Display';
+.fut_text {
+  font-family: "Clash Display Bold";
   font-weight: 700;
   font-size: 56px;
   line-height: 69px;
   text-align: center;
-  text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.other_text{
-  font-family: 'Satoshi';
+.other_text {
+  font-family: "Satoshi medium";
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   text-align: center;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
+.com_btn {
+  width: 209px;
+  height: 54px;
+  font-family: "Satoshi medium";
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+}
 
 /**** QUESTIONS STYLES ****/
 
-.freq_text{
-  font-family: 'Clash Display';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 69px;
-  text-transform: capitalize;
-  color: #000F24;
-}
-
-.Quest_cont{
-  text-align: center;
-}
-
-.fre_text{
-  font-family: 'Satoshi';
+.freq_text {
+  font-family: "Satoshi Bold";
   font-weight: 900;
   font-size: 24px;
   line-height: 32px;
-  text-transform: capitalize;
-  color: #004DB3;
+  /* color: #000f24; */
 }
 
-.img_cont{
-  display:flex;
+.Quest_cont {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.circ_box {
+  position: absolute;
+  left: 84.02%;
+  right: 14.48%;
+  top: 8.17%;
+  bottom: 87.58%;
+}
+
+.shape_box {
+  position: absolute;
+  left: 95%;
+  right: 14.48%;
+  top: 0%;
+  bottom: 87.58%;
+}
+
+.portfolio_box {
+  position: absolute;
+  left: 0.74%;
+  top: 49.24%;
+}
+
+.w_box {
+  position: absolute;
+  left: 0.74%;
+  top: 26.24%;
+}
+
+.img_cont {
+  display: flex;
   justify-content: center;
   padding-bottom: 5rem;
 }
 
-.faq{
-  display:flex;
+.faq {
+  display: flex;
   justify-content: space-between;
-  border: 1px solid #EAEAEA;
+  border: 1px solid #eaeaea;
   align-items: center;
+  border-left: none;
+  border-right: none;
 }
 
-.question_cont{
-  padding:2rem 0;
-  background: #FFFFFF;
+.question_cont {
+  padding: 2rem 0;
+  background: #ffffff;
 }
 
-.question_cont span{
-  font-family: 'Satoshi';
+.question_cont span {
+  font-family: "Satoshi bold";
   font-weight: 900;
   font-size: 24px;
   line-height: 32px;
-  text-transform: capitalize;
-  color: #000F24;
-  }
-
-  .freq_cont{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .freq_cont img{
-    height:5px;
-    width:24px;
-  }
-
-  .faqs_container{
-    padding: 4rem 17rem;
-  }
-
-  /**** FOOTER STYLES ****/
-
-  .footer_container{
-    background: #000F24;
-    padding: 5rem 3rem;
-  }
-
-  .social_text{
-    font-family: 'Satoshi';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    padding-top: 20px;
-
-  }
-
-  .social_cont{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+  color: #000f24;
 }
 
-.link_text{
-  font-family: 'Clash Display';
+.frequ_text {
+  font-family: "Clash Display Bold";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.freq_cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.freq_cont img {
+  height: 5px;
+  width: 24px;
+}
+
+.faqs_container {
+  padding: 4rem 17rem;
+}
+
+/**** FOOTER STYLES ****/
+
+.footer_container {
+  background: #000f24;
+  padding: 5rem 3rem;
+}
+
+.social_text {
+  font-family: "Satoshi medium";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding-top: 33px;
+}
+
+.social_cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link_text {
+  font-family: "Clash Display Medium";
   font-weight: 600;
   font-size: 32px;
   line-height: 39px;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
-.link_cont{
-  padding: 0 25px;
-}
-
-.link_cont p{
-  font-family: 'Satoshi';
+.link_cont p {
+  font-family: "Satoshi medium";
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: unset;
   margin-top: 15px;
 }
 
-input{
-background: #424141;
+input {
+  background: #424141;
 }
-  
+
+/****** MEDIA QUERIES *****/
+
+/* @media only screen and (max-width: 768px) {
+  .wrapper {
+    overflow-x: hidden;
+  }
+
+  .Ban-container {
+    padding: 4px 0 5px 0;
+  }
+
+  .container_icon img {
+    width: 60%;
+  }
+} */
+
+.nav-tabs {
+  border-bottom: unset;
+}
+
+.nav-tabs .nav-item {
+  margin: 0 25px;
+}
+
+.v-align__unset {
+  vertical-align: unset;
+}
+
+.rec-dot_active {
+  background-color: #004db3 !important;
+  box-shadow: #004db3 0 0 1px 3px !important;
+}
+
+.frame_icon_image {
+  max-width: 100.9%;
+}
+
+.butt-In {
+  border-radius: unset;
+  font-family: "Satoshi medium";
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.sub_us {
+  margin-bottom: 35px;
+}
+
+.input-control {
+  border-radius: unset;
+  background-color: #424141;
+}
+
+.rec-item-wrapper {
+  width: 630.667px !important;
+}
+
+.custom-accordion {
+  padding: 50px 150px 70px 150px;
+}
+
+.custom-item{
+  padding: 20px 0;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../public/images/remove_icon.png");
+}
+
+.accordion-button::after {
+  background-image: url("../public/images/add_icon.png");
+}

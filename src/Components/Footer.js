@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className="wrapper">
             <div className="row footer_container">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div>
                         <img src="/images/logo.png" alt="" />
                         <p className="social_text">reach out to us on any of our social media networks</p>
@@ -18,9 +18,12 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div className="link_cont">
-                        <span className="link_text">useful links</span>
+                        <div className="sub_us">
+                            <span className="link_text">useful links</span>
+                        </div>
+
                         <p>home</p>
                         <p>about us</p>
                         <p>our courses</p>
@@ -30,9 +33,12 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div className="link_cont">
-                        <span className="link_text">community</span>
+                        <div className="sub_us">
+                            <span className="link_text">community</span>
+                        </div>
+
                         <p>help centers</p>
                         <p>partners</p>
                         <p>suggestion</p>
@@ -41,17 +47,20 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div className="link_cont">
-                        <span className="link_text">subscribe us</span>
-                        <div>
-                        <input type="text" placeholder="nft123@gmail.com" required />
-                            <button type="button" className="btn btn-primary">
-                            send message
-                            </button>
+                        <div className="sub_us">
+                            <span className="link_text">subscribe us</span>
                         </div>
-                           
-                        
+
+                        <div class="input-group mb-3">
+                            <input type="text" className="form-control input-control" placeholder="nft123@gmail.com" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                            <div class="input-group-append">
+                                <button className="btn btn-primary butt-In" type="button">send message</button>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
 

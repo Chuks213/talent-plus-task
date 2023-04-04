@@ -10,27 +10,25 @@ const Courses = () => {
             <p className="p_text">high-defination video is video of higher resolution and quality than standard definition.
               while<br /> there’s no standard meaning for high definition, generally any standard video image</p>
             <div className="list_item">
-              <ul>
-                <li>
-                  all categories
+              <ul className="nav nav-tabs">
+                <li className="nav-item">
+                  <a href="#" className="nav-link active active_tab">all categories </a>
                 </li>
-                <li >
-                  design
+                <li className="nav-item">
+                  <a href="#" className="nav-link tab_text">design</a>
                 </li>
-                <li>
-                  development
+                <li className="nav-item">
+                  <a href="#" className="nav-link tab_text">development</a>
                 </li>
-                <li >
-                  marketing
+                <li className="nav-item">
+                  <a href="#" className="nav-link tab_text">marketing</a>
                 </li>
-
               </ul>
             </div>
-
           </div>
           <div>
-
           </div>
+        
         </div>
 
         <div className="wrapper">
@@ -40,7 +38,7 @@ const Courses = () => {
                 <img src="/images/splash_img.png" width="100%" alt="" />
                 <div className="lab_cont">
                   <label className="label_text">Design</label>
-                  <span className="amount_text">4.7k<img src="/images/star_icon.png" alt="" />(3.7k+)</span>
+                  <span className="amount_text">4.7k&nbsp;<img className="v-align__unset" src="/images/star_icon.png" alt="" />&nbsp;&nbsp;(3.7k+)</span>
                 </div>
                 <span className="Desc_text">introduction to user research in<br /> ux design</span>
                 <div className="box_img">
@@ -58,19 +56,19 @@ const Courses = () => {
                     <img src="/images/beard_man.png" alt="" />
                     <span className="inner_text">leonard victor</span>
                   </div>
-                  <img src="/images/price_icon.png" width="69px" height="25px" alt="" />
+                  <span className="price_text">$15.00</span>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
               <div className="course_container">
-                <img src="/images/drawing_img.png"width="100%" alt="" />
+                <img src="/images/drawing_img.png" width="100%" alt="" />
                 <div className="lab_cont">
                   <label className="label_text">Design</label>
-                  <span className="amount_text">4.7k<img src="/images/star_icon.png" alt="" />(3.7k+)</span>
+                  <span className="amount_text">4.7k&nbsp;<img className="v-align__unset" src="/images/star_icon.png" alt="" />&nbsp;&nbsp;(3.7k+)</span>
                 </div>
-                <span className="Desc_text">introduction to  new marketing<br/> audience </span>
+                <span className="Desc_text">introduction to  new marketing<br /> audience </span>
                 <div className="box_img">
                   <div className="inner_box">
                     <img src="/images/clock_icon.png" alt="" />
@@ -86,7 +84,7 @@ const Courses = () => {
                     <img src="/images/capman_img.png" alt="" />
                     <span className="inner_text">Jeffrey williams</span>
                   </div>
-                  <img src="/images/price_icon.png" width="69px" height="25px" alt="" />
+                  <span className="price_text">$32.00</span>
                 </div>
               </div>
             </div>
@@ -96,9 +94,9 @@ const Courses = () => {
                 <img src="/images/laptop_img.png" width="100%" alt="" />
                 <div className="lab_cont">
                   <label className="label_text">Design</label>
-                  <span className="amount_text">4.7k<img src="/images/star_icon.png" alt="" />(3.7k+)</span>
+                  <span className="amount_text">4.7k&nbsp;<img className="v-align__unset" src="/images/star_icon.png" alt="" />&nbsp;&nbsp;(3.7k+)</span>
                 </div>
-                <span className="Desc_text">introduction to html, css &<br/> bootstrap</span>
+                <span className="Desc_text">introduction to html, css &<br /> bootstrap</span>
                 <div className="box_img">
                   <div className="inner_box">
                     <img src="/images/clock_icon.png" alt="" />
@@ -114,7 +112,7 @@ const Courses = () => {
                     <img src="/images/lady_img.png" alt="" />
                     <span className="inner_text">claretta mason</span>
                   </div>
-                  <img src="/images/price_icon.png" width="69px" height="25px" alt="" />
+                  <span className="price_text">$55.00</span>
                 </div>
               </div>
             </div>
@@ -124,9 +122,9 @@ const Courses = () => {
                 <img src="/images/coding_img.png" width="100%" alt="" />
                 <div className="lab_cont">
                   <label className="label_text">Design</label>
-                  <span className="amount_text">4.7k<img src="/images/star_icon.png" alt="" />(3.7k+)</span>
+                  <span className="amount_text">4.7k&nbsp;<img className="v-align__unset" src="/images/star_icon.png" alt="" />&nbsp;&nbsp;(3.7k+)</span>
                 </div>
-                <span className="Desc_text">introduction to javascript, git &<br/> GitHub</span>
+                <span className="Desc_text">introduction to javascript, git &<br /> GitHub</span>
                 <div className="box_img">
                   <div className="inner_box">
                     <img src="/images/clock_icon.png" alt="" />
@@ -142,7 +140,7 @@ const Courses = () => {
                     <img src="/images/old_woman.png" alt="" />
                     <span className="inner_text">Jessica duke</span>
                   </div>
-                  <img src="/images/price_icon.png" width="69px" height="25px" alt="" />
+                  <span className="price_text">$45.00</span>
                 </div>
               </div>
             </div>
@@ -152,9 +150,9 @@ const Courses = () => {
                 <img src="/images/meeting_img.png" width="100%" alt="" />
                 <div className="lab_cont">
                   <label className="label_text">Design</label>
-                  <span className="amount_text">4.7k<img src="/images/star_icon.png" alt="" />(3.7k+)</span>
+                  <span className="amount_text">4.7k&nbsp;<img className="v-align__unset" src="/images/star_icon.png" alt="" />&nbsp;&nbsp;(3.7k+)</span>
                 </div>
-                <span className="Desc_text">introduction to outroom<br/>  marketing analysis</span>
+                <span className="Desc_text">introduction to outroom<br />  marketing analysis</span>
                 <div className="box_img">
                   <div className="inner_box">
                     <img src="/images/clock_icon.png" alt="" />
@@ -170,7 +168,7 @@ const Courses = () => {
                     <img src="/images/laughing_man.png" alt="" />
                     <span className="inner_text">Samuel jacobs</span>
                   </div>
-                  <img src="/images/price_icon.png" width="69px" height="25px" alt="" />
+                  <span className="price_text">$25.00</span>
                 </div>
               </div>
             </div>
@@ -180,9 +178,9 @@ const Courses = () => {
                 <img src="/images/typing_img.png" width="100%" alt="" />
                 <div className="lab_cont">
                   <label className="label_text">Design</label>
-                  <span className="amount_text">4.7k<img src="/images/star_icon.png" alt="" />(3.7k+)</span>
+                  <span className="amount_text">4.7k&nbsp;<img className="v-align__unset" src="/images/star_icon.png" alt="" />&nbsp;&nbsp;(3.7k+)</span>
                 </div>
-                <span className="Desc_text">introduction to live  marketing<br/> analysis</span>
+                <span className="Desc_text">introduction to live  marketing<br /> analysis</span>
                 <div className="box_img">
                   <div className="inner_box">
                     <img src="/images/clock_icon.png" alt="" />
@@ -198,10 +196,17 @@ const Courses = () => {
                     <img src="/images/smiling_man.png" alt="" />
                     <span className="inner_text">adam smith</span>
                   </div>
-                  <img src="/images/price_icon.png" width="69px" height="25px" alt="" />
+                  <span className="price_text">$25.00</span>
                 </div>
               </div>
             </div>
+            <div className="btn_cont">
+              <button className="btn btn-primary btn_box">explore all courses</button>
+            </div>
+
+          </div>
+          <div className="star_box">
+            <img src="/images/star_img.png" alt=""/>
           </div>
         </div>
 

@@ -17,6 +17,12 @@ const Experienced = () => {
                         <img src="/images/computer_img.png" width="100%" alt="" />
 
                     </div>
+                    <div className="triangle_box">
+                        <img src="/images/triangle_icon.png" alt=""/>
+                    </div>
+                    <div className="purple_box">
+                        <img src="/images/purple_icon.png" alt=""/>
+                    </div>
 
                 </div>
                 <div className="col-lg-6 col-sm-6- col-12">
