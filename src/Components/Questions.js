@@ -26,6 +26,7 @@ const Questions = () => {
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
@@ -38,6 +39,7 @@ const Questions = () => {
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
@@ -50,37 +52,40 @@ const Questions = () => {
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="accordion-item">
-                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
                                             <span className="freq_text">Do i get certified after taking courses?</span>
                                         </button>
                                     </h2>
-                                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                                         <div class="accordion-body">
                                             <p className="desc_text">high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. </p>
                                         </div>
                                     </div>
                                 </div>
+                                
                                 <div class="accordion-item">
-                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
                                             <span className="freq_text">How do i reach out to mentors?</span>
                                         </button>
                                     </h2>
-                                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
                                         <div class="accordion-body">
                                             <p className="desc_text">high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. </p>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="accordion-item">
-                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
                                             <span className="freq_text">do we get job ready after taking courses? </span>
                                         </button>
                                     </h2>
-                                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
                                         <div class="accordion-body">
                                             <p className="desc_text">high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. </p>
                                         </div>
@@ -89,58 +94,6 @@ const Questions = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* <div className="faqs_container">
-                        <div className="freq_cont">
-                            <span className="fre_text">Is there a free trial available?</span>
-                            <img src="/images/remove_icon.png" alt="" />
-                        </div>
-
-
-                        <p className="desc_text">high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and <br /> quality than standard definition.
-                            hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in<br /> the worldd definition. </p>
-
-                        <div className="faq">
-                            <div className="question_cont">
-                                <span>Can i change my plan later?</span>
-                            </div>
-                            <div>
-                                <img src="/images/add_icon.png" alt="" />
-                            </div>
-                        </div>
-                        <div className="faq">
-                            <div className="question_cont">
-                                <span>Are the courses lifetime?</span>
-                            </div>
-                            <div>
-                                <img src="/images/add_icon.png" alt="" />
-                            </div>
-                        </div>
-                        <div className="faq">
-                            <div className="question_cont">
-                                <span>Do i get certified after taking courses?</span>
-                            </div>
-                            <div>
-                                <img src="/images/add_icon.png" alt="" />
-                            </div>
-                        </div>
-                        <div className="faq">
-                            <div className="question_cont">
-                                <span>How do i reach out to mentors?</span>
-                            </div>
-                            <div>
-                                <img src="/images/add_icon.png" alt="" />
-                            </div>
-                        </div>
-                        <div className="faq">
-                            <div className="question_cont">
-                                <span>Do we get job ready after taking courses?</span>
-                            </div>
-                            <div>
-                                <img src="/images/add_icon.png" alt="" />
-                            </div>
-                        </div>
-                    </div> */}
 
                     <div className="circ_box">
                         <img src="/images/blue_circle.png" alt="" />

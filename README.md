@@ -13,7 +13,7 @@ docker build -t talent-plus-task .
 To start the app, run the command below. It starts the app on port 3000
 
 ```bash
-docker run -dp 3000:3000 talent-plus-task
+docker run -dp 80:3000 talent-plus-task
 ```
 
 
